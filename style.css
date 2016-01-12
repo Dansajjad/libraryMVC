@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* Global Content Formatting and Styles */
+
+body {
+	color: #575c7a;
+	line-height: 1.5em;
+	font-family: Arial;
+	font-size: 14px;
+	/*background: #515673 url(images/background_gradient.jpg) repeat-x 0px 0px;*/
+	max-width: 980px; /* when browser width >980, size locks down, pg centers*/
+	margin: 0px auto 0px auto; /*left & right set to auto*/
+	position: relative; /*anything we position inside the page area it will*/
+}
+
+
+h1 {
+	font-size: 2em; /*setting ems here because we want all of the fonts to be
+	proportional based on the base font of 14px in body*/
+	font-weight: normal; /*we don't want our h1s to be bold*/
+	color: #a6430a;
+	margin: 0 0 .5em 0;
+}
+
+h2 {
+	font-size: 1.7em; /*i.e. 70% larger than the base font*/
+	margin: 0 0 1em 0;
+}
+
+h3 { font-size: 1.5em; margin: 0 0 1em 0; }
+p { margin: 0 0 .75em 0; }
+a { color: #de9000; }
+a:hover { color: #009eff; }

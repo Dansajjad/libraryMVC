@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Library</title>
+      <link rel="stylesheet" href="style.css">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="container-fluid">
+        <h1>Welcome to My Library</h1>
+
+        <p>
+          Please make your selection:
+        </p>
+        <!-- creating, reading, updating, deleting (CRUD operations) -->
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+          <menu>
+            <a href="listBooks.html"><button type="button" name="button" class="btn btn-default">List books</button></a>
+            <a href="createBook.html"><button type="button" name="button" class="btn btn-default">Add book</button></a>
+            <a href="updateBook.html"><button class="btn btn-default">Update book</button></a>
+            <a href="deleteBook.html"><button type="button" name="button" class="btn btn-default">Delete book</button></a>
+            <button type="button" onClick="Book.clearData()" class="btn btn-default">Clear database</button>
+            <button type="button" onClick="Book.createTestData()" class="btn btn-default">Create test data</button>
+          </menu>
+        </div>
+      </div>
+  </body>
+</html>
